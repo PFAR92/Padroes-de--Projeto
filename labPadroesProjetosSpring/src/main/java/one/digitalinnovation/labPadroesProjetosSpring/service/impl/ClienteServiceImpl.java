@@ -18,7 +18,7 @@ public class ClienteServiceImpl implements ClienteService{
     }
 
     @Override
-    public Cliente buscarPorId() {
+    public Cliente buscarPorId(Long id) {
         // TODO Auto-generated method stub
         return null;
     }
@@ -40,5 +40,7 @@ public class ClienteServiceImpl implements ClienteService{
         // TODO Auto-generated method stub
         
     }
+
+    
     
 }

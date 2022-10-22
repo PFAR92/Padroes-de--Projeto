@@ -12,7 +12,7 @@ public interface ClienteService {
 
     Iterable<Cliente> buscarTodos();
 
-    Cliente buscarPorId();
+    Cliente buscarPorId(Long id);
 
     void inserir(Cliente cliente);
 
